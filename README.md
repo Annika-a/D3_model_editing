@@ -1,5 +1,7 @@
-# How to use Jupyter notebook
+# How to use rome_edit Jupyter notebook
 The notebook: rome_edit.ipynb is for project where GPT-Neo-125M model is edited with data from CounterFacts dataset and then evaluated.
+
+Project logic diagram for orders of running sections is in image: project_logic.png
 
 ## 0. Install Dependencies
 For installing missing dependencies
@@ -20,9 +22,9 @@ Example values returned:
 ## 4.1 Select facts to edit
 num_facts -value can be edited to change the amount of facts edited. 
 Suggestion is to stay under 100 so evaluation will not take too long time.
-4.2.Apply knowledge editing
+## 4.2.Apply knowledge editing
 
-## 5. Evaluate edited facts 
+## 5.1, 5.2  Evaluate edited facts 
 Evaluates the model by evaluating the changed facts.
 
 ## 6. Apply ROME properly
