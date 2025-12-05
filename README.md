@@ -26,9 +26,6 @@ Suggestion is to stay under 100 so evaluation will not take too long time.
 
 ## 5.1, 5.2  Evaluate edited facts 
 Evaluates the model by evaluating the changed facts.
-
-## 6. Apply ROME properly
--Not applicable yet
-
+ 
 ## 6. Validate the Edit
 This part can be used to validate the default question "What is the capital of France”.
